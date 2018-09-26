@@ -46,6 +46,15 @@ function sumArray(numbers){
 
 var numbersAvg = [2, 6, 9, 10, 7, 4, 1, 9];
 
+function averageNumbers(numbersAvg){
+  var total = 0;
+
+  for (var i = 0; i < numbersAvg.length; i++){
+    total += numbersAvg[i];
+    var avg = total
+    return total/numbersAvg.length;
+  }
+}
 // Array of Strings
 var wordsArr = [
   'seat',
