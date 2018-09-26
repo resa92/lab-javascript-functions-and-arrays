@@ -58,6 +58,7 @@ describe('Finding Longest Word - findLongestWord', function () {
   });
 });
 
+
 describe('Calculating a Sum - sumArray', function () {
   it('Defines sumArray', function () {
     expect(typeof sumArray).toBe('function');
@@ -79,6 +80,7 @@ describe('Calculating a Sum - sumArray', function () {
     expect(sumArray([10, 5, 4, 32, 8])).toBe(59);
   });
 });
+
 
 describe('Calculating the Average - averageNumbers', function () {
   it('Defines averageNumbers', function () {
